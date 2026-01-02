@@ -17,8 +17,8 @@ router.get('/history/:farmerId', async (req, res) => {
     // Controller will be implemented here
     res.json({ message: 'History retrieval endpoint - to be implemented' });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: error.message }); 
   }
 });
 
-export default router;
+export default router; 
